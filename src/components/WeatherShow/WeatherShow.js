@@ -9,9 +9,9 @@ import ZipCodeForm from './../ZipCodeForm/ZipCodeForm.js'
 import Card from 'react-bootstrap/Card'
 
 // import Spinner from 'react-bootstrap/Spinner'
-
+const num = '1c4b5fde466659fdfea9e7a47c6a5be6'
 const config = {
-    apiUrl: 'https://api.openweathermap.org/data/2.5/forecast?units=imperial&us&appid=1c4b5fde466659fdfea9e7a47c6a5be6&zip='
+    apiUrl: `https://api.openweathermap.org/data/2.5/forecast?units=imperial&us&appid=${num}&zip=`
 }
 
 class WeatherShow extends Component {

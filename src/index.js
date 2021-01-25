@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+// import { Route } from 'react-router-dom'
 import './index.scss'
 
 // import Header from './components/Header/Header.js'
