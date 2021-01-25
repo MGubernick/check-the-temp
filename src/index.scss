@@ -1,0 +1,75 @@
+$primary: #1a535c;
+$secondary: #4ecdc4;
+
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap');
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+$black: #000;
+$button-color: #ff6b6b;
+$display-body: #ffe66d;
+$card-text: #463f3a;
+
+body {
+  background-color: $secondary;
+  font-family: 'Gorditas', cursive;
+  font-weight: 400;
+}
+
+.display-card {
+  align-items: center;
+  color: $card-text;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 25px;
+  height: 300px;
+  width: 500px;
+}
+
+.img {
+  height: 400px;
+  width: 500px;
+  opacity: .9;
+}
+
+.key {
+  color: $black;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.value {
+  align-items: center;
+  display: flex;
+}
+
+.home-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.zip-code-form-display {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+}
+
+.forecast-div {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.check-forecast {
+  font-size: 40px;
+}
