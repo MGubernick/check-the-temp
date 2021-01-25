@@ -1,6 +1,6 @@
 {
   "name": "check-the-temp-app",
-  "homepage": "http://mgubernick.github.io/check-the-temp"
+  "homepage": "http://mgubernick.github.io/check-the-temp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
